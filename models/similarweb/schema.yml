@@ -1,0 +1,13 @@
+version: 2
+
+models:
+  - name: fct_ecommerce_company_traffic_analytics
+    columns:
+      - name: ecommerce_company_key
+        tests:
+          - unique
+          - not_null
+      - name: ecommerce_company_hkey
+        tests:
+          - unique
+          - not_null
